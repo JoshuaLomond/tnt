@@ -1,11 +1,16 @@
+@font-face {
+    font-family: "Subway";
+    src: url("/fonts/subwaynovella-kew7-webfont.woff") format("woff");
+    src: url("/fonts/subwaynovella-kew7-webfont.woff2") format("woff2")
+}
+
 body {
     margin: 0px;
 }
 
 .flagcontainer {
     display: grid;
-    grid-template-columns: auto auto auto;
-    height: 100px
+    grid-template-columns: 33.33% 33.33% 33.33%;
 }
 
 .flaggreen {
@@ -18,4 +23,42 @@ body {
 
 .flagred {
     background-color: #CE1125;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Subway";
+    color: red;
+    font-size: 30px;
+    letter-spacing: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: gray;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: darkgray;
+}
+
+.nav {
+    position: sticky;
+    top: 0px;
 }
