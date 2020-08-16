@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+}
+
+.flagcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 100px
+}
+
+.flaggreen {
+    background-color: #006847;
+}
+
+.flagwhite {
+    background-color: white;
+}
+
+.flagred {
+    background-color: #CE1125;
+}
